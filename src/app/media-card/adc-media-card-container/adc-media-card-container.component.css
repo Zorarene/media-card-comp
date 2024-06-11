@@ -1,0 +1,16 @@
+.main{
+    background-color: yellow;
+    border: solid orange;
+    border-radius: 10px;
+}
+.alt{
+    background-color:  blue;
+    border: solid green;
+    border-radius: 10px;
+
+}
+.reserve{
+    background-color: purple;
+    border: solid red;
+    border-radius: 10px;
+}

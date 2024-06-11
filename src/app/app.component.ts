@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'media-card';
+ imagePath : string = "./assets/mediacard-image.png"
+ 
+
 }
