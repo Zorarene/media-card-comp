@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Input } from '@angular/core';
 
 @Component({
   selector: 'app-adc-media-card-footer',
@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './adc-media-card-footer.component.css'
 })
 export class AdcMediaCardFooterComponent {
+  @Input() padding: boolean = false;
 
 }

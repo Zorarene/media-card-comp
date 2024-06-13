@@ -1,17 +1,18 @@
 img{
     border-radius: 10px 10px 0px 0px;
-    width:355px;
-    height: 200px;
+   
 }
 .cover{
-    width:355px; 
+    width:352px; 
+    height: auto;
 }
 .insert{
     width:326px;
-
+    height: auto;
 }
 .insert-large{
     width: 600px;
+    height: auto;
 }
 .ratio-16-9{
     aspect-ratio: 16 / 9;

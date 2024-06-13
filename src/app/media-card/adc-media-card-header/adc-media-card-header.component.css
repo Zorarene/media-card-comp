@@ -1,0 +1,6 @@
+.gap{
+    margin-left: 20px;
+}
+app-media-card[landscape="true"] app-adc-medica-card-header {
+    display: flex;
+}

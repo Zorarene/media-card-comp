@@ -1,14 +1,17 @@
 <div>
-  <app-media-card [landscape]="true" >
-      <app-adc-media-card-container [containerType]="'alt'">
-        <app-adc-media-card-image [image]=imagePath [type]="'cover'" [ratio]="'ratio-2-1'"></app-adc-media-card-image>
-         <app-adc-media-card-header>
-          <h3>Title</h3> 
-         </app-adc-media-card-header>      
-          <app-adc-media-card-body>
-            <p> slot:body </p>
-          </app-adc-media-card-body>
-          <app-adc-media-card-footer>
+  <app-media-card [landscape]="false" >
+    <app-adc-media-card-container 
+    [containerType]="'main'" [bounded]="true">
+        <div>
+          <app-adc-media-card-image [image]=imagePath [type]="'cover'" [ratio]="'ratio-3-2'"></app-adc-media-card-image>
+          <div > 
+            <app-adc-media-card-header [header]="'{Title} goes here'" [description]="'description is here !!!'"></app-adc-media-card-header>      
+            <app-adc-media-card-body>
+              <p> slot:body </p>
+              </app-adc-media-card-body>
+          </div>
+        </div>
+          <app-adc-media-card-footer [padding]="false">
             <p>slot:footer</p>
           </app-adc-media-card-footer>
     </app-adc-media-card-container>

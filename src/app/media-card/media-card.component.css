@@ -7,4 +7,15 @@
     width: 1216px;
     height: 342px;
 }
+/* 
+.wide{
+    display: flex ;
+}
+.fill{
+    flex-grow: 1;
 
+} */
+app-media-card[landscape="true"] app-adc-medica-card-container {
+    display: flex;
+    flex-grow: 1;
+}

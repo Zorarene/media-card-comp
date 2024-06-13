@@ -4,3 +4,7 @@
     text-align: center;
     margin : 0px 16px;
 }
+app-media-card[landscape="true"] app-adc-medica-card-body {
+    display: flex;
+    flex-grow: 1;
+}

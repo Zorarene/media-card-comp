@@ -9,5 +9,5 @@ import { Component, Input } from '@angular/core';
 export class AdcMediaCardContainerComponent {
 
   @Input() containerType: string = '';
-  @Input() bounded:string ='';
+  @Input() bounded:boolean = true;
 }
